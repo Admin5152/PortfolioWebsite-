@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <title> Seth.C Protfolio website </title>
+</head>
+<body>
+    
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-user" ></i>
+                    <p>About Me</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                    <p>Services</p>
+                </li>
+                <li onclick="Navigate(3)"><i class="fa-solid fa-book"></i>
+                    <p>Education</p>
+                </li>
+                <li onclick="Navigate(4)"><i class="fa-solid fa-comments"></i>
+                    <p>Contact Me</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! I'm <span class="stylized-name">Seth Charles</span>,</h1>
+                        <h3 class="text-animation"> A <span></span></h3>
+                        <p class="heroline">I am passionate about using game development to teach moral lessons and positively impact society. With expertise in Python, C++, HTML, and CSS, I create engaging gameplay experiences and visually appealing web content. My problem-solving skills enable me to craft innovative solutions that inspire, educate, and make a difference.                </p>
+                        <a href="https://www.gmail.com/sethagyeimensah2@gmail.com"><div class="buttonGroup"><button onclick="window.location.href='mailto:sethagyeimensah2@gmail.com';"> Hire Me</button><button onclick="window.location.href='mailto:sethagyeimensah2@gmail.com';">Contact Me</button></div></a>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="IMG_9886.JPG" alt="Suit">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-us">
+                    <h1 class="heading">About Me</h1>
+                    <h3 class="sub-heading">Hi, I'm Seth <span class="proffesions">...</span></h3>
+                    <p class="aboutme-deatils">
+                        I am currently in my first year as a Computer Science student at Kwame Nkrumah University of Science and Technology, where I have developed a deep passion for game development. My journey so far has allowed me to gain proficiency in several programming languages, including Python, Java, and C++, which I use to bring my creative ideas to life. I work with the Godot engine to create my games, drawing inspiration from titles like "Spider-Man" and "God of War," which masterfully integrate moral lessons into their gameplay. I aspire to create similarly impactful experiences that resonate with players. Additionally, I am committed to developing robust security systems to protect users' data and privacy. By combining my technical expertise with my passion for game development, I aim to craft games that are not only entertaining but also meaningful and secure.  </p>
+                    <div class="about-me-divison">
+                        <div class="about-me-table">
+                            <li><span>Experience:</span> a few years</li>
+                            <li><span>Country:</span> Ghana</li>
+                            <li><span>Age:</span>19</li>
+                            <li><span>Phone:</span>0531771042</li>
+                            <li><span>Language Used:</span>HTML, C++, Python.</li>
+                            <li><span>Degree:</span>Bsc.Computer Science</li>
+                            <div class="buttonGroup"><button>Hire Me</button><button>Contact Me</button></div>
+                        </div>
+                        <div class="skill-bar">
+                            <li>
+                                <p>HTML</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:20%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>C++</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:45%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Python</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:50%"></div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="swiper-slide services">
+
+                    <h1 class="heading">Services</h1>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h2>Web Development</h2>
+                        <p>I build responsive and dynamic websites using the latest technologies in HTML and CSS.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-gamepad"></i></div>
+                        <h2>Game Programmer</h2>
+                        <p>I develop games that teach moral lessons and entertain players.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class='fa-solid fa-code'></i></div>
+                        <h2>Python Programmer</h2>
+                        <p>I create scripts and applications using Python for various needs.</p>
+                    </div>
+                   <!--<div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-laptop"></i></div>
+                        <h2>Cyber Expert</h2>
+                        <p>I develop robust security systems to protect users' data and privacy.</p>
+                    </div>-->
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-code-branch"></i></div>
+                        <h2>C++ Programmer</h2>
+                        <p>Also program scripts in C++ for obtaining solutions to problems.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide book">
+                    <h1 class="heading">Education</h1>
+                    <div class="project">
+                        <div class="project">
+                            <h2>Junior High School (2017-2020)</h2>
+                            <p>Successfully completed Junior High School with a strong foundation in science and mathematics, which fueled my interest in problem-solving and technology.</p>
+                        </div>
+                        
+                        <div class="project">
+                            <h2>Senior High School (2021-2023)</h2>
+                            <p>Graduated from Senior High School with a major in General Science, further strengthening my understanding of scientific principles and preparing me for a career in technology.</p>
+                        </div>
+                        
+                        <div class="project">
+                            <h2>Kwame Nkrumah University of Science and Technology (2024-2027)</h2>
+                            <p>Currently pursuing a Bachelor's degree in Computer Science at KNUST, where I am honing my skills in programming, game development, and cybersecurity.</p>
+                        </div>
+                        
+                        <div class="project">
+                            <h2>Future Plans</h2>
+                            <p>Planning to undertake internships and advanced studies in game development and cybersecurity, aiming to gain practical experience and deepen my knowledge in these fields.</p>
+                        </div>
+                        
+                        <div class="project">
+                            <h2>Ongoing Learning</h2>
+                            <p>Committed to continuously expanding my expertise in software development and cybersecurity, staying updated with the latest technologies and practices.</p>
+                        </div>
+                        
+                </div>
+                <div class="swiper-slide contactMe">
+                    <h1 class="heading">Contact Me</h1>
+                    <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                        <h3>Mobile No</h3>
+                        <p>(+255)531771042</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p>Accra,Ghana</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-regular fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>sethagyeimensah2@gmail.com</p>
+                    </div>
+                    <form>
+                        <h2>Send Me A Message <div class="SocialLinks">
+                                <a href="https://www.instagram.com/sethagyeimensah2"><i class="fa-brands fa-instagram" style="color: rgb(165, 157, 157);"></i></i></a>
+                                <a href="https://www.linkedin.com/in/seth-charles-agyei-mensah-9204812bb"><i class="fa-brands fa-linkedin" style="color: rgb(165, 157, 157);"></i></i></a>
+                                <a href="https://www.github.com/Admin5152"><i class="fa-brands fa-github" style="color: rgb(165, 157, 157);"></i></i></a>
+                            </div> 
+                        </h2>
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="email">
+                        <textarea rows="10" placeholder="Type your Message Here..."></textarea>
+                        <a href="https://www.gmail.com/sethagyeimensah2@gmail.com"><button onclick="window.location.href='mailto:sethagyeimensah2@gmail.com';">Send</button></a>
+
+                    </form>
+                  
+
+                    <footer>
+                        <li></li>
+                    </footer>
+                </div>
+            </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js"></script>
+    <script src="https://github.com/mrdoob/three.js/blob/master/src/constants.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
